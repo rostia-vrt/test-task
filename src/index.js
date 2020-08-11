@@ -3,7 +3,7 @@ import {render} from 'react-dom';
 import * as serviceWorker from "./serviceWorker";
 import App from './App.js';
 import {Provider} from 'react-redux';
-import {BrowserRouter as Router} from "react-router-dom";
+import {HashRouter as Router} from "react-router-dom";
 import store from './redux/store';
 
 render(
